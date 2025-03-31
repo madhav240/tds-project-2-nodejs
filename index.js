@@ -19,7 +19,7 @@ app.post("/api/prettier", async (req, res) => {
     }
 
     // Format code using Prettier
-    const formattedCode = await prettier.format(code, { parser: "babel" });
+    const formattedCode = await prettier.format(code, { parser: "markdown" });
 
     return res.json({ formattedCode });
   } catch (error) {
