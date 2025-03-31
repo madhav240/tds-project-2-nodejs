@@ -1,10 +1,24 @@
 {
-  "repository": "https://github.com/vercel/examples.git",
-  "license": "MIT",
-  "private": true,
-  "devDependencies": {
-    "@types/node": "^17.0.42",
-    "@vercel/node": "^2.9.6",
-    "typescript": "^4.7.3"
+  "name": "tds-project-2-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhav240/tds-project-2-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madhav240/tds-project-2-nodejs/issues"
+  },
+  "homepage": "https://github.com/madhav240/tds-project-2-nodejs#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "prettier": "^3.4.2"
   }
 }
